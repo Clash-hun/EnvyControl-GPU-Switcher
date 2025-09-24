@@ -13,9 +13,7 @@ Instead of typing commands in the terminal, you can change modes with just a cou
 This applet queries the current GPU mode via EnvyControl and updates its tray icon accordingly.  
 You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes directly from the panel menu.
 
-<div>
-  <img src="nvidia-and-gm-partnership-lockup-v-on-dark-ari.png" alt="nvidia-intel" />
-</div>
+
 
 
 ---
