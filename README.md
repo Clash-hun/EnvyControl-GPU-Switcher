@@ -13,6 +13,9 @@ Instead of typing commands in the terminal, you can change modes with just a cou
 This applet queries the current GPU mode via EnvyControl and updates its tray icon accordingly.  
 You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes directly from the panel menu.
 
+<div>
+  <img src="nvidia+intel.png" alt="nvidia-intel" />
+</div>
 
 
 
@@ -30,6 +33,9 @@ You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes dir
 ## 🎨 GPU Modes Explained
 
 ### 🔵 Integrated Mode (Intel/AMD iGPU)
+<div align="center">
+  <img src="envycontrol@clash/icons/intel.png" alt="intel" style="width:15%;">
+</div>
 - Uses only the integrated GPU (Intel or AMD).  
 - ✅ Lowest power consumption, best for battery life.  
 - ❌ External monitors connected to the Nvidia GPU ports will not work.  
@@ -38,6 +44,9 @@ You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes dir
 ---
 
 ### 🟣 Hybrid Mode (PRIME Offloading)
+<div align="center">
+  <img src="envycontrol@clash/icons/hybrid.png" alt="hybrid" style="width:15%;">
+</div>
 - Enables **PRIME render offloading**.  
 - ✅ Balanced: iGPU handles most tasks, dGPU powers up only when needed.  
 - ✅ Supports RTD3 power management (turns off Nvidia GPU dynamically).  
@@ -47,6 +56,9 @@ You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes dir
 ---
 
 ### 🟢 Nvidia Mode (dGPU Only)
+<div align="center">
+  <img src="envycontrol@clash/icons/nvidia.png" alt="nvidia" style="width:15%;">
+</div>
 - Uses the dedicated Nvidia GPU exclusively.  
 - ✅ Maximum performance for gaming, 3D, and CUDA workloads.  
 - ✅ Recommended when using external monitors connected to Nvidia ports.  
