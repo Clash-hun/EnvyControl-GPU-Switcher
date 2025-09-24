@@ -39,7 +39,6 @@ You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes dir
 - Uses only the integrated GPU (Intel or AMD).  
 - ✅ Lowest power consumption, best for battery life.  
 - ❌ External monitors connected to the Nvidia GPU ports will not work.  
-- Icon: ![Integrated](icons/intel.png)
 
 ---
 
@@ -51,7 +50,6 @@ You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes dir
 - ✅ Balanced: iGPU handles most tasks, dGPU powers up only when needed.  
 - ✅ Supports RTD3 power management (turns off Nvidia GPU dynamically).  
 - ⚠️ Slightly higher power usage than Integrated.  
-- Icon: ![Hybrid](icons/hybrid.png)
 
 ---
 
@@ -63,7 +61,6 @@ You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes dir
 - ✅ Maximum performance for gaming, 3D, and CUDA workloads.  
 - ✅ Recommended when using external monitors connected to Nvidia ports.  
 - ❌ Higher power consumption.  
-- Icon: ![Nvidia](icons/nvidia.png)
 
 ---
 
