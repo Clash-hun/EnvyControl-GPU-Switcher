@@ -67,6 +67,12 @@ You can then switch between **Integrated**, **Hybrid**, and **Nvidia** modes dir
 
 ---
 
+<div align="center">
+  <img src="screen.png" alt="screen" />
+</div>
+
+---
+
 ## 🚀 Installation
 
 1. Install **EnvyControl** on your system by following the instructions here:  
